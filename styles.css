@@ -1,0 +1,77 @@
+html{
+    font-size: 62.5%; /* now, 45px = 4.5rem (cause root font size now is 10px) */
+    margin: 0 8em;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #c0e2ec;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 2.5em auto;
+}
+
+#niet-logo {
+    width: 5.4em;
+    height: auto;
+}
+
+#kalakriti-logo {
+    width: 4em;
+    height: auto;
+}
+
+button{
+    background-color: #779ecb;
+    border: none;
+    border-radius: 50em;
+    width: 6em;
+    height: 1.7em;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7emem;
+    height: 2em;
+    gap: 1em;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.button img {
+    width: 1em;
+    height: 1em;
+}
+
+input{
+    color: #c0e2ec;
+    background-color: #c0e2ec;
+    border: none;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
